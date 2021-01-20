@@ -2,6 +2,25 @@ package eu.senla.task1;
 
 public class Number {
 
+    private byte a;
+    private short b;
+    private int c;
+    private long d;
+    private float e;
+    private double f;
+    private char g;
+    boolean h;
+
+    private Byte aByte;
+    private Short bShort;
+    private Integer cInt;
+    private Long dLong;
+    private Float eFloat;
+    private Double fDouble;
+    private Character gChar;
+    private Boolean hBoolean;
+    private String sString;
+
     public byte getA() {
         return a;
     }
@@ -138,22 +157,5 @@ public class Number {
         this.sString = sString;
     }
 
-    private byte a;
-    private short b;
-    private int c;
-    private long d;
-    private float e;
-    private double f;
-    private char g;
-    boolean h;
 
-    private Byte aByte;
-    private Short bShort;
-    private Integer cInt;
-    private Long dLong;
-    private Float eFloat;
-    private Double fDouble;
-    private Character gChar;
-    private Boolean hBoolean;
-    private String sString;
 }

@@ -32,5 +32,7 @@ public class Main {
         number.setD((long) 32767);
         short m = (short) number.getD();// long to short
         System.out.println(m);
+
+
     }
 }
