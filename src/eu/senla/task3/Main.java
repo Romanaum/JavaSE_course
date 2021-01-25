@@ -9,7 +9,7 @@ public class Main {
         int counter = 0;
 
 // first cycle with while
-        /*
+
         while (counter < 10) {
             System.out.println("Cat name: " + cat.catName);
             System.out.println("Cat age: " + cat.catAge);
@@ -21,7 +21,7 @@ public class Main {
             System.out.println("Cat name: " + cat.getCatName());
             System.out.println("Cat age: " + cat.getCatAge());
         }
-        */
+
 //third cycle with do and while
 
         /*
@@ -32,8 +32,9 @@ public class Main {
             System.out.println("Cat age: " + concreteObject.getCatAge());
         } while (counter < 10);
         */
+
 //fourth cycle with foreach
 
 
+        }
     }
-}
