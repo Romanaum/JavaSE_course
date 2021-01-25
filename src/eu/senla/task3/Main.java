@@ -15,6 +15,7 @@ public class Main {
             System.out.println("Cat age: " + cat.catAge);
             counter++;
         }
+        counter = 0;
 
 // second cycle with for
         for (counter = 0; counter < 10; counter++) {
@@ -23,18 +24,26 @@ public class Main {
         }
 
 //third cycle with do and while
-
-        /*
+/*      В лекциях лектор употребляет слово конструктор к записи "concreteObject", что это ?
         Cat concreteObject = new Cat();
         do {
             counter++;
             System.out.println("Cat name: " + concreteObject.getCatName());
             System.out.println("Cat age: " + concreteObject.getCatAge());
         } while (counter < 10);
-        */
+*/
+        counter = 0;
+
+        Cat cat1 = new Cat("Humus", 3);
+        do {
+            counter++;
+            System.out.println("Cat name: " + cat.catName);
+            System.out.println("Cat age: " + cat.catAge);
+        } while (counter < 10);
+
 
 //fourth cycle with foreach
 
 
-        }
     }
+}

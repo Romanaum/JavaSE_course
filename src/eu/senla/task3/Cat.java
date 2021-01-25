@@ -4,6 +4,14 @@ public class Cat {
     public static String catName = "Boris";
     public static int catAge = 7;
 
+    public Cat() {
+    }
+
+    public Cat(String name, int age) {
+        this.catName = name;
+        this.catAge = age;
+    }
+
     public static String getCatName() {
         return catName;
     }
