@@ -1,7 +1,5 @@
 package eu.senla.task3;
 
-import eu.senla.task2.Rainbow;
-
 public class Main {
     public static void main(String[] args) {
         Cat cat = new Cat();
