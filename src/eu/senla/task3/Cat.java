@@ -4,12 +4,15 @@ public class Cat {
     public static String catName = "Boris";
     public static int catAge = 7;
 
+    public String name;
+    public int age;
+
     public Cat() {
     }
 
     public Cat(String name, int age) {
-        this.catName = name;
-        this.catAge = age;
+        this.name = name;
+        this.age = age;
     }
 
     public static String getCatName() {

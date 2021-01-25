@@ -38,12 +38,13 @@ public class Main {
         Cat cat1 = new Cat("Humus", 3);
         do {
             counter++;
-            System.out.println("Cat name: " + cat.catName);
-            System.out.println("Cat age: " + cat.catAge);
+            System.out.println("Cat name: " + cat1.name);
+            System.out.println("Cat age: " + cat1.age);
         } while (counter < 10);
 
 
 //fourth cycle with foreach
+
         String[] name = {"Panda", "Tik", "Tok", "Tom", "Leo"};
         int[] age = {5, 4, 7, 3, 2};
         int n = 0;
