@@ -24,7 +24,8 @@ public class Main {
         }
 
 //third cycle with do and while
-/*      В лекциях лектор употребляет слово конструктор к записи "concreteObject", что это ?
+//     В лекциях лектор употребляет слово конструктор к записи "concreteObject", что это ?
+/*
         Cat concreteObject = new Cat();
         do {
             counter++;
@@ -43,7 +44,15 @@ public class Main {
 
 
 //fourth cycle with foreach
-
-
+        String[] name = {"Panda", "Tik", "Tok", "Tom", "Leo"};
+        int[] age = {5, 4, 7, 3, 2};
+        int n = 0;
+        Cat[] catArray = new Cat[5];
+        for (Cat cat2 : catArray) {
+            cat2 = new Cat(name[n], age[n]);
+            System.out.println("Cat name: " + name[n]);
+            System.out.println("Cat age: " + age[n]);
+            n++;
+        }
     }
 }
