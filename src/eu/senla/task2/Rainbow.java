@@ -3,7 +3,6 @@ package eu.senla.task2;
 public class Rainbow {
 
     private static final int Red = 1;
-
     private static final int Orange = 2;
     private static final int Yellow = 3;
     private static final int Green = 4;
