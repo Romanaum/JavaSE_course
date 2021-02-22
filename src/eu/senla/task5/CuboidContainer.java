@@ -1,11 +1,11 @@
 package eu.senla.task5;
 
-public class Cuboid extends Container {
+public class CuboidContainer extends Container {
 
     private double weight;
 
 
-    public Cuboid(int density, boolean isBig, int height) {
+    public CuboidContainer(int density, boolean isBig, int height) {
         super(density, isBig, height);
     }
 

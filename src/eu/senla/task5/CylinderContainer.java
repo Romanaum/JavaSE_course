@@ -1,12 +1,12 @@
 package eu.senla.task5;
 
 
-public class Cylinder extends Container {
+public class CylinderContainer extends Container {
 
     private double weight;
 
 
-    public Cylinder(int density, boolean isBig, int height) {
+    public CylinderContainer(int density, boolean isBig, int height) {
         super(density, isBig, height);
     }
 

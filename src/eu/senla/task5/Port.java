@@ -4,16 +4,6 @@ public class Port {
 
     private Ship ship;
 
-
-    public Port(Ship ship) {
-        this.ship = ship;
-    }
-
-    @Override
-    public String toString() {
-        return "Port{" +
-                "ship=" + ship +
-                '}';
-    }
+    Ship[] capacity = new Ship[10];
 
 }

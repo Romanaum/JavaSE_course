@@ -1,11 +1,11 @@
 package eu.senla.task5;
 
-public class Cone extends Container {
+public class ConeContainer extends Container {
 
     private double weight;
 
 
-    public Cone(int density, boolean isBig, int height) {
+    public ConeContainer(int density, boolean isBig, int height) {
         super(density, isBig, height);
     }
 
