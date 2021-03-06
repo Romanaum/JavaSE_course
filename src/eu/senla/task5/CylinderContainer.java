@@ -2,9 +2,10 @@ package eu.senla.task5;
 
 
 public class CylinderContainer extends Container {
-//    public CylinderContainer(int size) {
-//        super(size);
-//    }
+
+    public CylinderContainer() {
+        this.weight = getWeight();
+    }
 
     @Override
     public double getWeight() {

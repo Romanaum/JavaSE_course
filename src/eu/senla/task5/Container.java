@@ -4,8 +4,8 @@ abstract class Container {
 
     private final int density1 = 1000;
     private final int density2 = 2000;
-    int big=20;
-    int small=10;
+    int big = 20;
+    int small = 10;
     int diagonal;
     int size;
     int height;
@@ -14,7 +14,6 @@ abstract class Container {
 
     public Container() {
         this.size = getSize();
-        //this.diagonal = getDiagonal();
         this.height = getHeight();
         this.density = getDensity();
     }
@@ -22,13 +21,6 @@ abstract class Container {
     public abstract double getWeight();
 
     public int getSize() {
-
-//        if (this.size == 1) {
-//            diagonal = 10;
-//        }
-//        else if (this.size==2){
-//            diagonal=20;
-//        }
         if (Math.random() > 0.5) {
             diagonal = small;
         } else {
@@ -51,5 +43,18 @@ abstract class Container {
         return density;
     }
 
-
+    @Override
+    public String toString() {
+        return "Container{" +
+                "density1=" + density1 +
+                ", density2=" + density2 +
+                ", big=" + big +
+                ", small=" + small +
+                ", diagonal=" + diagonal +
+                ", size=" + size +
+                ", height=" + height +
+                ", density=" + density +
+                ", weight=" + weight +
+                '}';
+    }
 }

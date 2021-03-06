@@ -4,6 +4,15 @@ public class Deck {
     Container[] containers;
     int number;
     int count = 0;
+    int deckSize;
+    int weight;
+
+
+    public Deck() {
+        this.deckSize = getDeckSize();
+        containers = new Container[number];
+//        this.weight=getWeight();
+    }
 
     public int getDeckSize() {
         if (Math.random() > 0.5) {
@@ -14,21 +23,21 @@ public class Deck {
         return number;
     }
 
-    public Deck() {
-        containers = new Container[number];
-    }
-
-    public void add(Container container) {
+    public boolean add(Container container) {
         if (count < containers.length) {
             containers[count] = container;
             count++;
+            return true;
+        } else {
+            return false;
         }
     }
-    public int getWeight(){
+
+    public int getWeight() {
         int weight = 0;
-        for (Container cont:containers){
-            weight+=cont.getWeight();
+        for (Container cont : containers) {
+            weight += cont.getWeight();
         }
-        return  weight;
+        return weight;
     }
 }

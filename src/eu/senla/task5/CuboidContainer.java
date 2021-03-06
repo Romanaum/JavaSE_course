@@ -1,12 +1,10 @@
 package eu.senla.task5;
 
 public class CuboidContainer extends Container {
-//
-//    private double weight;
-//
-//    public CuboidContainer(int size) {
-//        super(size);
-//    }
+
+    public CuboidContainer() {
+        this.weight = getWeight();
+    }
 
     @Override
     public double getWeight() {
